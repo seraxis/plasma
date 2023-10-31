@@ -6,3 +6,13 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+gilrs = "0.10"
+stick = "0.13"
+pasts = "0.8"
+rusty-xinput = "1.2.1"
+log = "0.4"
+simple_logger = "4.2.0"
+
+winapi = "0.3.9"
+multiinput = "0.1.0"
+windows = { version = "0.51.1", features = ["Win32_Devices_HumanInterfaceDevice", "Win32_Foundation"] }
